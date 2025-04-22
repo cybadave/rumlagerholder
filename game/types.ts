@@ -7,11 +7,11 @@ type Tuple<
 export enum NodeState {
   VOID,
   PLAYER,
-  PLAYER_ON_GOAL,
   MAZE,
   BOX,
   GOAL,
   FILLED_GOAL,
+  PLAYER_ON_GOAL,
 }
 
 export enum Dimensions {
